@@ -1,0 +1,27 @@
+.about {
+  color: var(--color-dark-xl);
+}
+
+.about__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 120px;
+}
+
+.about__wrapper-image {
+  max-width: 300px;
+  width: 100%;
+}
+
+.about__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  max-width: 430px;
+}
+
+.about__title {
+  max-width: 360px;
+  color: var(--color-dark-l);
+}
