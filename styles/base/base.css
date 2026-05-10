@@ -14,7 +14,7 @@
   --footer-gradient-background: #211f20;
 
   --container-width: 1200px;
-  --container-paddinx-x: 20px;
+  --container-paddinx-x: 10px;
 
   --font-family-base: "Georgia", sans-serif;
   --font-family-accent: "Arial", sans-serif;
@@ -46,6 +46,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 section {
