@@ -1,0 +1,22 @@
+.logo {
+  display: grid;
+  row-gap: 10px;
+}
+
+.logo__title {
+  margin-block: 0;
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+}
+
+.logo__subtitle {
+  font-family: var(--font-family-accent);
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--color-light-xl);
+}

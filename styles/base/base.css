@@ -1,0 +1,59 @@
+:root {
+  --color-light-xl: #fff;
+  --color-light-l: #f6f6f6;
+  --color-light-s: #fafafa;
+  --color-dark-s: #cdcdcd;
+  --color-dark-m: #b2b2b2;
+  --color-dark-l: #545454;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-2xl: #444;
+  --color-dark-3xl: #292929;
+  --color-primary: #f1cdb3;
+  --color-primary-light: #fddcc4;
+  --start-screen-gradient-background: #211f20;
+  --footer-gradient-background: #211f20;
+
+  --container-width: 1200px;
+  --container-paddinx-x: 20px;
+
+  --font-family-base: "Georgia", sans-serif;
+  --font-family-accent: "Arial", sans-serif;
+
+  --transition-duration: 0.2s;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.background-start-wrapper {
+  background-color: #211f20;
+  background-image: url("../../assets/images/start-screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-paddinx-x) * 2);
+  padding-inline: var(--container-paddinx-x);
+  margin-inline: auto;
+}
