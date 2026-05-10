@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  padding: 15px 45px;
+  color: var(--color-dark-3xl);
+  font-family: var(--font-family-base);
+  font-size: 17px;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  background: transparent;
+  border: 2px solid var(--color-primary);
+  border-radius: 100px;
+  transition-duration: var(--transition-duration);
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+  }
+}

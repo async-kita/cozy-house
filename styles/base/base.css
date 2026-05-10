@@ -48,6 +48,10 @@ ul {
   list-style: none;
 }
 
+section {
+  padding-top: 80px;
+}
+
 .background-start-wrapper {
   background-color: #211f20;
   background-image: url("../../assets/images/start-screen.png");

@@ -1,0 +1,22 @@
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__body {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 42px;
+  max-width: 460px;
+}
+
+.hero__title {
+  max-width: 320px;
+  color: var(--color-light-xl);
+}
+
+.hero__subtitle {
+  color: var(--color-dark-s);
+}
