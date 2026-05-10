@@ -25,3 +25,23 @@
   max-width: 360px;
   color: var(--color-dark-l);
 }
+
+@media screen and (max-width: 1024px) {
+  .about__inner {
+    flex-direction: column-reverse;
+    row-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__body {
+    max-width: 270px;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .about__title {
+    max-width: 250px;
+    text-align: center;
+  }
+}

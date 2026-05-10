@@ -54,7 +54,9 @@ h5 {
 
 @media screen and (max-width: 480px) {
   h2,
-  .h2 {
+  .h2,
+  h3,
+  .h3 {
     font-size: 25px;
   }
 }
