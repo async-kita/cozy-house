@@ -12,6 +12,7 @@
   border: 2px solid var(--color-primary);
   border-radius: 100px;
   transition-duration: var(--transition-duration);
+  cursor: pointer;
 }
 
 .button--primary {

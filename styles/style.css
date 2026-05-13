@@ -5,7 +5,9 @@
 /*Components*/
 @import url("./components/logo.css");
 @import url("./components/button.css");
+@import url("./components/card.css");
 /*Layout*/
 @import url("./layout/header.css");
 @import url("./layout/hero.css");
 @import url("./layout/about.css");
+@import url("./layout/our-friends.css");
